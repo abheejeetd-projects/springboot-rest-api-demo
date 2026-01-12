@@ -1,19 +1,30 @@
-# Spring Boot REST API Demo
+# Spring Boot REST API – Backend Demo
 
-This project demonstrates a clean Spring Boot REST API with:
-- Request validation
-- Global exception handling
-- Layered architecture
-- JPA integration
+This repository demonstrates a clean and production-style **Spring Boot REST API** designed with best practices used in real backend projects.
 
-## Endpoints
-POST /api/users  
-GET /api/users/{id}
+It is intended to showcase how I approach **API development, validation, and error handling** in Java-based systems.
 
-## Tech Stack
-- Java 17
-- Spring Boot
-- Spring Data JPA
-- H2 Database
+---
 
-This project is intended as a backend API reference.
+## 🔧 What This Project Demonstrates
+
+✔ REST API design using Spring Boot  
+✔ Request validation using Jakarta Validation  
+✔ Global exception handling  
+✔ Layered architecture (Controller, Service, Repository)  
+✔ Clean and maintainable code structure  
+✔ Database integration using JPA
+
+---
+
+## 🚀 API Endpoints
+
+### Create User
+**POST** `/api/users`
+
+**Request Body**
+```json
+{
+  "name": "John Doe",
+  "email": "john@example.com"
+}
